@@ -23,6 +23,6 @@ document.addEventListener('keydown', function(e) {
 }
 }
 
-init();
+//init();
 
 // for (index = 0; index < code.length; index++) {
