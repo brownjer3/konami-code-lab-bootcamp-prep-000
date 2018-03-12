@@ -4,9 +4,9 @@ var index = 0;
 
 function init() {
 
-document.addEventListener('keydown', function(e)) {
+document.addEventListener('keydown', function(e) {
     var key = parseInt(e.detail || e.which);
-
+    
     if (key === code[index]) {
       index++;
 
@@ -20,4 +20,7 @@ document.addEventListener('keydown', function(e)) {
   }
 }
 
+
 init();
+
+// for (index = 0; index < code.length; index++) { 
