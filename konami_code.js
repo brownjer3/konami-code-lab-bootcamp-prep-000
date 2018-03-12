@@ -20,4 +20,4 @@ var index = 0;
   });
 }
 
-init();
+//init();
