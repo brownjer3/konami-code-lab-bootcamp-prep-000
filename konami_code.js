@@ -12,11 +12,10 @@ function init() {
     if (key === code[i]);
     index++;
 }
-    if (index === code.length);
-    alert('YES.');
+    if (index === code.length - 1);
+    window.alert('YES.');
 
     index = 0;
-
 }
   } else {
       index = 0;
