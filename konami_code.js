@@ -4,7 +4,7 @@ var index = 0;
 function init() {
 var body = document.body;
 
-  body.addEventListener('keydown', function(e)) {
+  body.addEventListener('keydown', function(e) {
       var key = parseInt(e.detail || e.which);
 
       if (key === code[index]) {
@@ -19,9 +19,9 @@ var body = document.body;
   } else {
       index = 0;
     }
-  }
+  });
 }
-
+init();
 
 /*document.addEventListener('keydown', function(e) {
     var key = parseInt(e.detail || e.which);
