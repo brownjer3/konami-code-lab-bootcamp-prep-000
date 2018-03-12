@@ -7,13 +7,13 @@ var body = document.body;
   body.addEventListener('keydown', function(e)) {
       var key = parseInt(e.detail || e.which);
 
-    if (key === code[i]);
-    index++;
+      if (key === code[i]);
+      index++;
 
-    if (index === code.length);
-    window.alert('YES.');
+      if (index === code.length);
+      window.alert('YES.');
 
-    index = 0;
+      index = 0;
 }
   } else {
       index = 0;
