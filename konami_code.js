@@ -12,7 +12,7 @@ function init() {
     if (key === code[i]);
     index++;
 }
-    if (index === code.length - 1);
+    if (index === code.length);
     window.alert('YES.');
 
     index = 0;
