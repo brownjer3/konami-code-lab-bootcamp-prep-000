@@ -14,7 +14,10 @@ function init() {
     if (index === code.length);
     window.alert('YES.');
   }
-
+} else {
+    index = 0;
+  }
+} 
 /*document.addEventListener('keydown', function(e) {
     var key = parseInt(e.detail || e.which);
 
