@@ -11,13 +11,14 @@ var body = document.body;
       index++;
 
       if (index === code.length - 1) {
+      index = 0;
       alert('YES.');
 
+
+}
+  } else {
       index = 0;
-} else {
-    index = 0;
-  }
-  }
+    }
   }
 }
 
