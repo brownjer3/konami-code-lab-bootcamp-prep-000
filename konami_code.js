@@ -12,7 +12,7 @@ function init() {
     index++;
 
     if (index === code.length);
-    wondow.alert('YES.');
+    window.alert('YES.');
   }
 
 /*document.addEventListener('keydown', function(e) {
