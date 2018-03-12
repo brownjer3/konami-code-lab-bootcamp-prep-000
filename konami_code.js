@@ -4,7 +4,14 @@ var index = 0;
 
 function init() {
 
-document.addEventListener('keydown', function(e) {
+  document.addEventListener('keydown', function(e) {
+      var key = parseInt(e.detail || e.which);
+
+  for (var i = 0; i < code.length; i++) {
+    if ()
+  }
+
+/*document.addEventListener('keydown', function(e) {
     var key = parseInt(e.detail || e.which);
 
     for (index = 0; index < code.length; index++) {
@@ -22,7 +29,7 @@ document.addEventListener('keydown', function(e) {
   }
 }
 }
-
+*/
 //init();
 
 // for (index = 0; index < code.length; index++) {
