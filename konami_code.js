@@ -11,7 +11,7 @@ document.addEventListener('keydown', function(e)) {
       index++;
 
       if (index === code.length) {
-        alert('fuck. yes.');
+        window.alert('fuck. yes.');
         index = 0;
       }
     }
