@@ -19,3 +19,5 @@ document.addEventListener('keydown', function(e)) {
     }
   }
 }
+
+init();
