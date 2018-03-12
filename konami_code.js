@@ -7,10 +7,12 @@ function init() {
 document.addEventListener('keydown', function(e) {
     var key = parseInt(e.detail || e.which);
 
+    for (index = 0; index < code.length; index++) {
     if (key === code[index]) {
+      console.log(e.which);
       index++;
 
-      if (index === code.length) {
+      if (index === code.length - 1) {
         window.alert('fuck. yes.');
         index = 0;
       }
@@ -19,7 +21,7 @@ document.addEventListener('keydown', function(e) {
     }
   }
 }
-
+}
 
 init();
 
