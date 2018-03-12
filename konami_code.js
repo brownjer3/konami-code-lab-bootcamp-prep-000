@@ -23,4 +23,4 @@ document.addEventListener('keydown', function(e) {
 
 init();
 
-// for (index = 0; index < code.length; index++) { 
+// for (index = 0; index < code.length; index++) {
