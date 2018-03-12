@@ -16,7 +16,7 @@ document.body.addEventListener('keydown', function(e)) {
       }
     }
     else {
-      idex = 0;
+      index = 0;
     }
   }
 }
