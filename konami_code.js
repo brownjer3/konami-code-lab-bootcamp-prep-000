@@ -12,7 +12,7 @@ var body = document.body;
 
       if (index === code.length - 1) {
       index = 0;
-      alert('YES.');
+      window.alert('YES.');
 
 
 }
