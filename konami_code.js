@@ -10,10 +10,10 @@ var body = document.body;
       if (key === code[index]) {
       index++;
 
-      if (index === code.length - 1) {
-      index = 0;
-      window.alert('YES.');
+      if (index === code.length ) {
 
+      window.alert('YES.');
+      index = 0;
 }
   } else {
       index = 0;
