@@ -10,13 +10,14 @@ var body = document.body;
       if (key === code[index]) {
       index++;
 
-      if (index === code.length) { 
+      if (index === code.length) {
       alert('YES.');
 
       index = 0;
 }
   } else {
       index = 0;
+    }
   }
 }
 
