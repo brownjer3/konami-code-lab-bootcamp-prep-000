@@ -9,6 +9,10 @@ function init() {
 
   for (var i = 0; i < code.length; i++) {
     if (key === code[i]);
+    index++;
+
+    if (index === code.length);
+    wondow.alert('YES.');
   }
 
 /*document.addEventListener('keydown', function(e) {
